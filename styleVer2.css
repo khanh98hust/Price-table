@@ -60,7 +60,7 @@ body {
 .centered-1 {
   text-align: center;
   color: white;
-  transform: translate(0%, 117%);
+  transform: translate(0%, 135%);
 }
 .centered-1 p {
   font-size: 11px;
@@ -80,8 +80,7 @@ body {
 .new {
   height: 0px;
   position: relative;
-  background-repeat: no-repeat;
-  top: -18%;
+  top: -17%;
   left: 42%;
   transform: translate(-47%);
   z-index: 100;
@@ -141,17 +140,15 @@ body {
 }
 
 .title-top p {
-  font-size: 10px;
+  font-size: 11.6px;
   font-weight: 700;
 }
 
 .title-bot-item {
   padding: 15px 0px;
-  font-size: 12px;
+  font-size: 13.3px;
   font-weight: bold;
 }
-
-
 
 .title-bot-item:nth-child(2n + 1) {
   background-color: #f4f6f7;
@@ -165,7 +162,7 @@ body {
 
 .btn {
   padding: 10px 25px;
-  font-size: 15px;
+  font-size: 15.84px;
   text-align: center;
   cursor: pointer;
 }
