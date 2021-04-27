@@ -10,15 +10,16 @@ body {
 }
 
 .main {
-  margin: 0px 22%;
+  padding: 0% 16.2%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .item {
   background-color: rgb(255, 255, 255);
-  margin: 12% 1.8%;
+  margin: 150px 2.5% 100px 2.5%;
   min-width: 260px;
+  width: 303px;
 }
 
 /* price */
@@ -51,7 +52,7 @@ body {
   text-align: center;
   color: white;
   font-size: 32px;
-  line-height: 200px;
+  line-height: 225px;
   letter-spacing: 3px;
   font-weight: 100;
 }
@@ -100,7 +101,7 @@ body {
 .image {
   background-position: center;
   background-size: 155%;
-  height: 200px;
+  height: 225px;
   width: 100%;
   margin-top: -100px;
 }
@@ -166,6 +167,7 @@ body {
   padding: 10px 25px;
   font-size: 15px;
   text-align: center;
+  cursor: pointer;
 }
 
 .btn.btn1 {
