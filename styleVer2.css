@@ -90,7 +90,6 @@ body {
 .new p {
   color: white;
   font-weight: bold;
-  position: relative;
   transform: translate(6%, -206%);
 }
 
