@@ -13,6 +13,7 @@ body {
   padding: 0% 16.2%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item {
