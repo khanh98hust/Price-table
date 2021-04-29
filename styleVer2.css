@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-  padding: 0% 16.2% auto;
+  padding: 0px 180px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -19,9 +19,9 @@ body {
 
 .item {
   background-color: rgb(255, 255, 255);
-  margin: 182px 21px 182px 21px;
-  min-width: 260px;
-  width: 362px;
+  margin: 182px 21px 0px 21px;
+  width: 100%;
+  max-width: 362px;
   position: relative;
 }
 
@@ -99,8 +99,8 @@ body {
 }
 
 /* image */
-
 .image { 
+  position: relative;
   background-position: center;
   background-size: cover;
   padding-top: 75%;
@@ -108,17 +108,14 @@ body {
 
 .img1 {
   background-image: url("./public/ocean.png");
-  filter: grayscale(30%);
 }
 
 .img2 {
   background-image: url("./public/mountain.png");
-  filter: grayscale(10%);
 }
 
 .img3 {
   background-image: url("./public/forest.png");
-  filter: grayscale(10%);
 }
 
 .layer {
@@ -128,7 +125,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 /* title */
@@ -138,7 +134,7 @@ body {
 
 }
 .title-top {
-  margin: 26px 0px;
+  padding: 26px 0px;
 }
 
 .title-top span{
@@ -162,7 +158,7 @@ body {
 
 /* btn */
 .btn-box {
-  margin: 50px 0px;
+  padding: 50px 0px;
 }
 
 .btn {
